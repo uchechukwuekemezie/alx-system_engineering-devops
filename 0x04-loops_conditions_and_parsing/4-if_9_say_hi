@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script uses a while loop and and if statement to print Best school and Hi
+
+count=1
+
+while [ $count -le 10 ]
+do
+    if [ $count -eq 9 ]
+    then
+	echo "Best School"
+	echo "Hi"
+    else
+        echo "Best School"
+    fi
+
+    count=$((count+1))
+done
